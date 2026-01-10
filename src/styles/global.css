@@ -58,7 +58,7 @@ footer {
 /* Social Icon Styling */
 .social-links {
     display: flex;
-    gap: 1.5rem; /* Matches the spacing in your screenshot */
+    gap: 1.5rem; 
     align-items: baseline;
 }
 
@@ -74,11 +74,10 @@ footer {
     transform: translateY(-2px); 
 }
 
-/* Ensure the Header still spreads Name/Socials and Nav apart */
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Aligns Nav to the top of the name */
+    align-items: flex-start; 
     padding: 2rem 0;
 }
 
@@ -89,7 +88,7 @@ footer {
 }
 
 .brand h1 {
-    margin: 0; /* Removes the default top/bottom spacing */
+    margin: 0; 
     font-size: 2rem;
 }
 
@@ -113,9 +112,9 @@ a:visited {
 
 .nav-links {
   display: flex;
-  flex-wrap: nowrap;      /* Prevents items like "o mně" from breaking */
+  flex-wrap: nowrap;      
   align-items: center;
-  gap: 1rem;              /* Space between links */
+  gap: 1rem;              
 }
 
 .nav-links a {
@@ -123,8 +122,8 @@ a:visited {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: lowercase;
-  white-space: nowrap;    /* Forces "o mně" to stay on one line */
-  padding: 0.5rem 1rem;   /* Padding for a better click area */
+  white-space: nowrap;    
+  padding: 0.5rem 1rem;   
 }
 
 .nav-links a:hover {
@@ -133,8 +132,8 @@ a:visited {
   font-weight: bold;
   color: var(--default-highlight-color);
   text-transform: lowercase;
-  white-space: nowrap;    /* Forces "o mně" to stay on one line */
-  padding: 0.5rem 1rem;   /* Padding for a better click area */
+  white-space: nowrap;    
+  padding: 0.5rem 1rem;   
 }
 
 .post-grid {
@@ -145,11 +144,11 @@ a:visited {
 }
 
 .post-content {
-    max-width: 65ch;       /* The "Magic" width for perfect readability */
-    font-size: 1.2rem;     /* Larger text as requested */
-    line-height: 1.7;      /* Increased breathing room between lines */
-    text-align: justify;   /* Aligns text to both left and right edges */
-    hyphens: auto;         /* Prevents large gaps in justified text */
+    max-width: 65ch;       
+    font-size: 1.2rem;     
+    line-height: 1.7;      
+    text-align: justify;   
+    hyphens: auto;         
     color: var(--default-text-color);
 }
 
@@ -162,4 +161,14 @@ a:visited {
 .post-content h3 {
     text-align: left;
     margin-top: 2.5rem;
+}
+
+.publish-date {
+    color: var(--default-text-color);
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.author {
+    margin: 0;
 }

@@ -1,11 +1,25 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import { Image } from 'astro:assets';
 const { frontmatter } = Astro.props;
+
+const date = new Date(frontmatter.pubDate);
+
+const formattedDate = date.toLocaleDateString('cs-CZ', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
 ---
 <BaseLayout pageTitle={frontmatter.title}>
     <div class="post-container">
+        <header class="post-header">
+            <time datetime={frontmatter.pubDate.toString()} class="publish-date">
+                {formattedDate}
+            </time>
+            {frontmatter.author !== "Adam Martinek" && <p class="author">Autor: {frontmatter.author}</p>}
+        </header>
         <div class="post-content">
+            
             <slot />
         </div>
     </div>
