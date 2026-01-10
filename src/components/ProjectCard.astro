@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets';
+const { title, description, url, logo } = Astro.props;
+---
+
+<div class="project-card">
+    <a href={url} target="_blank" rel="noopener noreferrer" class="logo-link">
+        <Image src={logo} alt={`${title} logo`} width={80} height={80} class="project-logo" />
+    </a>
+    <div class="project-info">
+        <h4>{title}</h4>
+        <p>{description}</p>
+    </div>
+</div>
+
+<style>
+    .project-card {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+    .logo-link {
+        flex-shrink: 0;
+        transition: transform 0.2s ease;
+    }
+    .logo-link:hover {
+        transform: scale(1.05);
+    }
+    .project-logo {
+        border-radius: 12px;
+        object-fit: contain;
+        background: var(--default-background-color);
+        padding: 5px;
+        border: 1px solid var(--default-text-color);
+        box-shadow: 0 10px 30px color-mix(in srgb, var(--default-text-color), transparent 90%);
+    }
+
+    .project-logo:hover {
+        border: 2px solid var(--default-highlight-color);
+    }
+
+    h4 {
+        margin: 0 0 0.5rem 0;
+        color: var(--default-heading-color);
+    }
+    p {
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+</style>

@@ -1,0 +1,27 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import BackToTop from '../components/BackToTop.astro';
+
+import '../styles/global.css';
+const { pageTitle } = Astro.props;
+---
+
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <Header />
+    {pageTitle !== "O mně" && <h1>{pageTitle}</h1>}
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <BackToTop />
+  </body>
+</html>

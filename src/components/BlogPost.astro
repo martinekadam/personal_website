@@ -1,0 +1,64 @@
+---
+import { Image } from 'astro:assets'; // This is required to use the Image component
+const { title, url, image, alt, description } = Astro.props;
+---
+<a href={url} class="post-card">
+    <div class="card-image">
+        {image ? (
+            <Image src={image} alt={alt} />
+        ) : (
+            <div class="placeholder">📝</div>
+        )}
+    </div>
+    <div class="card-content">
+        <h3>{title}</h3>
+        {description && <p>{description}</p>}
+    </div>
+</a>
+
+<style>
+    .post-card {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        text-decoration: none;
+        color: var(--default-text-color);
+        border: 1px solid color-mix(in srgb, var(--default-text-color), transparent 90%);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .post-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px color-mix(in srgb, var(--default-text-color), transparent 85%);
+    }
+
+    .card-image {
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        background-color: color-mix(in srgb, var(--default-heading-color), transparent 90%);
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 1rem;
+    }
+
+    .card-content h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: var(--default-heading-color);
+    }
+
+    .card-content p {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        opacity: 0.8;
+    }
+</style>

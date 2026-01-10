@@ -1,0 +1,67 @@
+---
+---
+<button id="back-to-top" aria-label="Zpět nahoru" class="back-to-top">
+    <span class="arrow">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"> <polyline points="18 15 12 9 6 15"></polyline></svg>
+    </span>
+</button>
+
+<script>
+  const btn = document.getElementById('back-to-top');
+
+  window.addEventListener('scroll', () => {
+    // Show button after scrolling down 300px
+    if (window.scrollY > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+<style>
+  .back-to-top {
+    /* Positioning */
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+
+    /* Shape & Size */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    
+    background-color: var(--default-object-color);
+    color: var(--default-background-color);
+    
+    box-shadow: 0 4px 12px color-mix(in srgb, var(--default-text-color), transparent 70%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+        
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+  }
+
+  .back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .back-to-top:hover {
+    background-color: var(--default-highlight);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px color-mix(in srgb, var(--default-text-color), transparent 60%);
+  }
+</style>

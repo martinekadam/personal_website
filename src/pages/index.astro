@@ -1,21 +1,10 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import "../styles/global.css";
 
+const pageTitle = "O mně"
 ---
-
-<html lang="cs">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<a href="/">Domů</a>
-        <a href="/about/">O mně</a>
-        <a href="/blog/">Blog</a>
-        <a href="/projects/">Projekty</a>
-		
-		<h1>Adam Martinek</h1>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<Hero />
+</BaseLayout>

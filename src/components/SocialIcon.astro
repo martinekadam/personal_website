@@ -1,0 +1,26 @@
+---
+const { href, label } = Astro.props;
+---
+
+<a href={href} aria-label={label} target="_blank" rel="noopener noreferrer">
+  <slot /> 
+</a>
+
+<style>
+  a {
+    display: inline-flex;
+    color: var(--default-text-color); 
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover {
+    transform: translateY(-2px);
+    color: var(--default-highlight); 
+  }
+
+  a :global(svg) {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+</style>

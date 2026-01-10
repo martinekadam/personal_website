@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+import logo1 from '../assets/pravnicka-wiki-logo.png';
+import logo2 from '../assets/cesko-digital-logo.png';
+import logo3 from '../assets/koalice-logo.png';
+
+const pageTitle = "Projekty";
+
+const leadProjects = [
+    { title: "Právnická wiki", description: "Právnickou wiki jsem založil jako alternativní způsob sdílení studijních materiálů na Právnické fakultě UK.", url: "https://pravnicka.wiki", logo: logo1 },
+];
+
+const partProjects = [
+    { title: "Nezisk.Digital", description: "Provedu vás a vaši neziskovku kurzem Nezisk.Digital.", url: "https://www.cesko.digital/projekty/nezisk-digital/online-kurz-nezisk-digital", logo: logo2 },
+    { title: "Datová akademie Koalice za snadné dárcovství", description: "Garantuji a učím kurz datové analytiky pro fundraisery*fundraiserky.", url: "https://www.snadnedarcovstvi.cz/", logo: logo3 },
+];
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <div class="projects-container">
+        <section class="project-column">
+            <h3>Projekty, které vedu</h3>
+            {leadProjects.map(p => <ProjectCard {...p} />)}
+        </section>
+
+        <section class="project-column">
+            <h3>Projekty, kterých se účastním</h3>
+            {partProjects.map(p => <ProjectCard {...p} />)}
+        </section>
+    </div>
+</BaseLayout>
+
+<style>
+    .projects-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    h3 {
+        border-bottom: 2px solid var(--default-heading-color);
+        padding-bottom: 0.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* Mobile view: stack columns on top of each other */
+    @media (max-width: 768px) {
+        .projects-container {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+    }
+</style>
