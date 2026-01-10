@@ -4,12 +4,9 @@ import { Image } from 'astro:assets';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-    <Image 
-        src={frontmatter.image.url} 
-        width={800} 
-        height={450} 
-        alt={frontmatter.image.alt} 
-        class="hero-image"
-    />
-    <slot />
+    <div class="post-container">
+        <div class="post-content">
+            <slot />
+        </div>
+    </div>
 </BaseLayout>

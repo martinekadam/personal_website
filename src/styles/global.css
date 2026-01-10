@@ -27,9 +27,11 @@ body {
     min-height: 100vh;
 }
 
+body a:hover {
+    color: var(--default-highlight-color);
+}
+
 main {
-    /* This is the magic line: it tells the main content to grow 
-       and push the footer to the bottom */
     flex: 1; 
 }
 
@@ -69,7 +71,6 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--default-highlight-color);
     transform: translateY(-2px); 
 }
 
@@ -141,4 +142,24 @@ a:visited {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
+}
+
+.post-content {
+    max-width: 65ch;       /* The "Magic" width for perfect readability */
+    font-size: 1.2rem;     /* Larger text as requested */
+    line-height: 1.7;      /* Increased breathing room between lines */
+    text-align: justify;   /* Aligns text to both left and right edges */
+    hyphens: auto;         /* Prevents large gaps in justified text */
+    color: var(--default-text-color);
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3 {
+    text-align: left;
+    margin-top: 2.5rem;
 }
