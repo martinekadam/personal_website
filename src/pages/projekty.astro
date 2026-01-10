@@ -21,12 +21,12 @@ const partProjects = [
 <BaseLayout pageTitle={pageTitle}>
     <div class="projects-container">
         <section class="project-column">
-            <h3>Projekty, které vedu</h3>
+            <h3>Moje projekty</h3>
             {leadProjects.map(p => <ProjectCard {...p} />)}
         </section>
 
         <section class="project-column">
-            <h3>Projekty, kterých se účastním</h3>
+            <h3>Projekty, na kterých se podílím</h3>
             {partProjects.map(p => <ProjectCard {...p} />)}
         </section>
     </div>

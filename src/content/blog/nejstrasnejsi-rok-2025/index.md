@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 slug: nejstrasnejsi-rok-2025
 title: "Nejstrašnější rok 2025"
 pubDate: 2026-01-09
-description: "Co mě bavilo číst v roce 2025"
+description: "Co mě bavilo číst v minulém roce"
 author: "Adam Martinek"
 image:
     url: "./images/nejstrasnejsi-rok-2025.jpg"
@@ -12,9 +12,9 @@ tags: ["literatura", "blog"]
 ---
 Jedním z mých předsevzetí na (příliš rychle uplynuvší) minulý rok bylo číst více beletrie. Po několika letech, během kterých jsem sice četl hodně, ale převážně odborné publikace, jsem vůči beletrii takřka otupěl a to se mi vůbec nelíbilo.
 
-Možná to bylo stísněnou atmosférou, ve které žijeme, možná to byla náhoda, ale aniž bych to plánoval, mým zdaleka nejčtenějším žánrem v uplynulém roce byly horory. :vampire:
+Možná to bylo stísněnou atmosférou, ve které žijeme, možná to byla náhoda, ale aniž bych to plánoval, mým zdaleka nejčtenějším žánrem v uplynulém roce byly horory. Je možné, že mě k tomu přivedla velmi povedená knížka [*V domě je příšera*](https://www.goodreads.com/book/show/230103403-v-dom-je-p-era)
 
-Tři knihy, které mne oslovily nejvíce, byly [*The Buffalo Hunter Hunter*](https://www.goodreads.com/book/show/214565614-the-buffalo-hunter-hunter), [*Bat Eater and Other Names for Cora Zeng*](https://www.goodreads.com/book/show/218185743-bat-eater-and-other-names-for-cora-zeng?ref=nav_sb_ss_1_9) a v neposlední řadě [*Ring Shout*](https://www.goodreads.com/book/show/49247242-ring-shout?ref=nav_sb_ss_1_10).
+Tři knihy, které mne oslovily nejvíce, byly [*The Buffalo Hunter Hunter*](https://www.goodreads.com/book/show/214565614-the-buffalo-hunter-hunter), [*Bat Eater and Other Names for Cora Zeng*](https://www.goodreads.com/book/show/218185743-bat-eater-and-other-names-for-cora-zeng) a v neposlední řadě [*Ring Shout*](https://www.goodreads.com/book/show/49247242-ring-shout).
 
 ### Komiksy
 
