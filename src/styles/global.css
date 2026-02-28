@@ -166,3 +166,13 @@ a:visited {
 .author {
     margin: 0;
 }
+
+#footnote-label {
+  display: none;
+}
+
+[data-footnotes] {
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}

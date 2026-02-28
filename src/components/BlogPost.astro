@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets'; // This is required to use the Image component
-const { title, url, image, alt, description } = Astro.props;
+const { title, url, image, alt, description, pubDate } = Astro.props;
 ---
 <a href={url} class="post-card">
     <div class="card-image">
@@ -13,6 +13,7 @@ const { title, url, image, alt, description } = Astro.props;
     <div class="card-content">
         <h3>{title}</h3>
         {description && <p>{description}</p>}
+        <p>{new Date(pubDate).toLocaleDateString('cs-CZ')}</p>
     </div>
 </a>
 
