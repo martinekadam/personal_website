@@ -18,9 +18,11 @@ Během dřívějšího studia jsem se setkal s velmi inspirativními lidmi. Ačk
 
 Miluju nahrávky přednášek! Během zimního semestru jsem často marodil. A často chodil do práce – což si není nepodobné. Než jsem se na práva hlásil, ověřoval jsem si u kamarádek, jestli lze studium skloubit s prací. Všechny se shodly, že naprosto, protože si navolím semináře tak, abych na ně mohl chodit večer unavený z práce, nebo rozespalý brzy ráno. Ale na ten největší bonus, že si budu moci streamovat přednášky z domova, nebo je sledovat ze záznamu, mě nikdo kupodivu nelákal! 
 
-Hlavním těžištěm studia na právech jsou semináře, na které chodím s o tolik větší radostí, s jakou nemusím navštěvovat přednášky. Důraz na seminární výuku, na interaktivitu a na samostatnou práci je mi sympatický a dává mi přesně tu míru odpovědnosti za vlastní studium, kterou jsem hledal. Napsal jsem už dost hezkých věcí o výuce, abych si mohl začít poprávu stěžovat?
+Hlavním těžištěm studia na právech jsou semináře, na které chodím s o tolik větší radostí, s jakou nemusím navštěvovat přednášky. Důraz na seminární výuku, na interaktivitu a na samostatnou práci je mi sympatický a dává mi přesně tu míru odpovědnosti za vlastní studium, kterou jsem hledal. 
 
-Politologie! Státověda! Vývoj velkých právních systémů! Historické základy českého práva! Proč to všechno nehodí do jednoho velkého předmětu *„Právní propedeutika“*? Tyto úvodní předměty jsou úmorné. Chápu jejich smysl. Přesto probírat znovu středoškolské ZSV a děják s (mírným nádechem práva) je ubíjející. Je to ubíjející nejenom pro mě v bezmála třiceti letech, ale je to ubíjející i pro kolegy a kolegyně ve dvaceti. 
+Napsal jsem už dost hezkých věcí o výuce, abych si mohl začít poprávu stěžovat?
+
+**Politologie! Státověda! Vývoj velkých právních systémů! Historické základy českého práva!** Proč to všechno nehodí do jednoho velkého předmětu *„Právní propedeutika“*? Tyto úvodní předměty jsou úmorné. Chápu jejich smysl. Přesto probírat znovu středoškolské ZSV a děják s (mírným nádechem práva) je ubíjející. Je to ubíjející nejenom pro mě v bezmála třiceti letech, ale je to ubíjející i pro kolegy a kolegyně ve dvaceti. 
 
 Stejně se možná někde v koutku duše bojím, že co když třeba zapomenu jaké znaky má direktoriální systém vládnutí a pak se mě na to někdo zeptá u soudu a já nebudu vědět a bude z toho malér a můj klient dostane doživotí…
 
