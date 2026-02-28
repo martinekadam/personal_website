@@ -7,7 +7,7 @@ description: "Jaký byl můj první semestr na právech"
 author: "Adam Martinek"
 image:
     url: "./images/studium-na-pravech-1.jpeg"
-    alt: "Plaketa s citátem „La propriété, c'est le vol!."
+    alt: "Plaketa s citátem „La propriété, c'est le vol!“."
 tags: ["prava", "osobni-zivot"]
 ---
 První semestr na právech si mohu odškrtnout. Připadám si trošku jako Jan Neruda – čím jsem byl, tím jsem byl rád. 
