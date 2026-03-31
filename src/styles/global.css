@@ -48,6 +48,14 @@
     font-style: oblique;
 }
 
+.post-content img {
+    width: 75%;
+    height: auto;
+    border-radius: 8px; 
+    background: transparent;
+    isolation: isolate;
+}
+
 html {
     background: var(--default-background-color);
     color: var(--default-text-color);
