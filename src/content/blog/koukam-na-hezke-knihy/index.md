@@ -23,7 +23,7 @@ Za poslední roky jsem přečetl několik knih, které mě oslovily v první řa
 
 Z obálky *[Planety Praha](https://www.jakost.net/cz/eshop/planeta-praha)* na vás kouká kos. Knihu o pražské přírodě prokládají fotografie a ilustrace roztomilé havěti naaranžované jako polaroidy v deníčku, který jste si možná vedli na střední škole. Knížka je vtipná a zajímavá, barevná a názorná. Ale to pořád není ono. To můžou být i omalovánky. 
 
-[Pražské metro](https://www.paseka.cz/produkt/prazske-metro/) mě dostalo svými jasnými uměleckými fotografiemi jindy zaplyvaného, zprofanovaného prostoru. Ukázalo mi, že pod nánosem vší té špíny je metro vlastně architektonicky a umělecky moc zajímavé. Nad Muzeem budu sice dál ohrnovat nos, ale poučeně! Teď už vím, že ohrnuji nos nad dlaždicemi a obklady vyrobenými ze vzácných hornin. Jenže to furt není ono. To jsou jen šutry a jejich hezké fotky. 
+[Pražské metro](https://www.paseka.cz/produkt/prazske-metro/) mě dostalo svými jasnými uměleckými fotografiemi jindy zaplivaného, zprofanovaného prostoru. Ukázalo mi, že pod nánosem vší té špíny je metro vlastně architektonicky a umělecky moc zajímavé. Nad Muzeem budu sice dál ohrnovat nos, ale poučeně! Teď už vím, že ohrnuji nos nad dlaždicemi a obklady vyrobenými ze vzácných hornin. Jenže to furt není ono. To jsou jen šutry a jejich hezké fotky. 
 
 ![Fotogafie dvoustránky z knihy Pražské metro, ve které je zachycena barevná skleněná mozaika.](https://www.paseka.cz/wp-content/uploads/2024/09/DSC09374.jpg)
 
@@ -33,7 +33,7 @@ Co teda dělá krásné knihy krásnými? Některé jsou krásné svou typografi
 
 Myslím, že „jádro“ krásných knih spočívá v něčem abstraktnějším. V rytmu. Rytmus je hra mezi typografií, fotografií a informací. Rytmus udává tempo, jakým čteme. Jestli hltáme každý odstavec a otáčíme stránky tak rychle, až se z nich kouří, nebo se pravidelně zastavujeme nad vytyčenou myšlenkou a knihu odložíme, abychom ji mohli vstřebat. Rytmus nás knihou provádí, vyžaduje pravidelnost a promyšlené rozložení grafických prvků. Rytmu nedocílíte tím, že doprostřed knihy praštíte dvacet stránek s fotografiemi na křídovém papíře a máte hotovo. Rytmus je tepoucí srdce knih. 
 
-To mají všechny ty knihy společné. Architektura a politika sice na fotografiích ilustruje budovy, o kterých mluví, ale tempo obsahem a provedením textu. Planeta je bohatě zdobená grafickými prvky, které vás vtáhnou do „pražské divočiny“ a donutí zapomenout, že sedíte v autobusu do Mělníka. Metro vám nějakou tu informaci předá v textu, ale hlavně vás posadí na zadek a řekne: „Tak! Tady máš dvoustránku té mozaiky, kolem které už deset let chodíš. Teď se na ni pořádně podívej!“. 
+To mají všechny ty knihy společné. Architektura a politika sice na fotografiích ilustruje budovy, o kterých mluví, ale tempo čtenáři udává svým obsahem a typografickým provedením textu. Planeta je bohatě zdobená grafickými prvky, které vás vtáhnou do „pražské divočiny“ a donutí zapomenout, že sedíte v autobusu do Mělníka. Metro vám nějakou tu informaci předá v textu, ale hlavně vás posadí na zadek a řekne: „Tak! Tady máš dvoustránku té mozaiky, kolem které už deset let chodíš. Teď se na ni pořádně podívej!“. 
 
 A Labe má prostě skvělý rytmus. Myšlenky o polabské krajině a jejích městech střídají exkurzy do historie, dechberoucí fotografie a osobní anekdoty, které stojí za to číst. Nechám na vás, abyste posoudili. 
 
